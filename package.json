@@ -1,0 +1,15 @@
+{
+  "name": "expose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files './**/**.js, ./**/**.css, ./**/**.html' --directory"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "p5": "^1.0.0"
+  }
+}
