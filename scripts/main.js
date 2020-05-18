@@ -9,9 +9,14 @@ function removeFromArray(arr, elt) {
   }
 
 function heuristic(a, b) {
-// let d = dist(a.i, a.j, b.i, b.j)
-let d = abs(a.i - b.i) + abs(a.j - b.j)
+let d = dist(a.i, a.j, b.i, b.j)
+// let d = abs(a.i - b.i) + abs(a.j - b.j)
 return d
+}
+
+function gridCoord() {
+    console.log("Hello");
+    
 }
 
 function resetSketch() {
@@ -35,8 +40,8 @@ function resetSketch() {
         grid[i][j].addNeighbors(grid)
         }
     }
-    start = grid[0][0]
-    end = grid[cols - 1][rows - 1]
+    start = grid[10][10]
+    end = grid[0][0]
     start.wall = false
     end.wall = false
     openSet.push(start)
