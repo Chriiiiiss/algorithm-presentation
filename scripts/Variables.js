@@ -1,5 +1,5 @@
-let cols = 90
-let rows = 90
+let cols = 105
+let rows = 105
 let WALLS_FREQ = 0.4
 let grid = new Array(cols)
 let openSet = []
